@@ -1,0 +1,8 @@
+xxj2
+{
+	material materials/overviews/xxj2.vmat
+	pos_x -14080
+	pos_y 14080
+	scale 27.500
+}
+

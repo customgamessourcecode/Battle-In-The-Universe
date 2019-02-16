@@ -1,0 +1,5954 @@
+// Dota2 Editor
+// Get latest version: https://github.com/zombieJ/nw-dota2editor
+
+"DOTAAbilities"
+{
+
+	"item_tower_world_name"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1501"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"test_unit"
+			}
+		}
+	}
+
+	"item_test_shihao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_cyclone"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1912"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_test_shihao"
+			}
+		}
+	}
+
+	"item_tower_pl_xisai"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/希赛"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1502"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_xisai"
+			}
+		}
+	}
+
+	"item_tower_xcb_qinyu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/秦羽"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1503"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_qinyu"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_pl_linlei"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林雷"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1504"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_linlei"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_xn_wanglin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/王林"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1505"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_wanglin"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dldl_tangsan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/唐三"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1506"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_tangsan"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dldl_qianrenxue"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/千仞雪"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1507"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_qianrenxue"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_jdj_tengqingshan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/滕青山"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1508"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_tengqingshan"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_jdj_peisan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/裴三"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1509"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_peisan"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_xylz_dongboxueying"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/东伯雪鹰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1510"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_dongboxueying"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_tsxk_luofeng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/罗峰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1511"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_luofeng"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dpcq_xiaoyan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/萧炎"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1512"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_xiaoyan"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dpcq_tuoshegudi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/陀舍古帝"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1513"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_tuoshegudi"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_wdqk_lindong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林动"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1514"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_lindong"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_mhj_jining"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/纪宁"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1515"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_jining"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dzz_muchen"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/牧尘"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1516"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_muchen"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dzz_qingshanjiansheng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/青衫剑圣"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1517"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_qingshanjiansheng"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_zt_yefan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/叶凡"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1518"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_yefan"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_wwdx_hailong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/海龙"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1519"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_hailong"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_qm_suming"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/苏铭"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1520"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_suming"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dzhz_fangyun"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/courier_radiant_flying"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1521"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_fangyun"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_wmsj_shihao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/石昊"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1886"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_shihao"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_lixiaoyao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/李逍遥"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1895"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_lixiaoyao"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_zx_linjingyu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林惊羽"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1868"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_linjingyu"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_zx_luxueqi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/陆雪琪"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1911"
+		"ItemQuality"	"common"
+		"ItemCost"	"15000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_luxueqi"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_xcb_qinshuang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/秦霜"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1522"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_qinshuang"
+			}
+		}
+	}
+
+	"item_tower_xcb_qinsi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/秦思"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1523"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_qinsi"
+			}
+		}
+	}
+
+	"item_tower_pl_aofu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/奥夫命运主宰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1524"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_aofu"
+			}
+		}
+	}
+
+	"item_tower_pl_youming"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/死亡主宰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1525"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_youming"
+			}
+		}
+	}
+
+	"item_tower_pl_wuteleide"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/乌特雷德"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1526"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_wuteleide"
+			}
+		}
+	}
+
+	"item_tower_pl_weiweiya"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/生命主宰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1527"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_weiweiya"
+			}
+		}
+	}
+
+	"item_tower_xn_situnan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/司徒南"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1528"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_situnan"
+			}
+		}
+	}
+
+	"item_tower_xn_zhangzun"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/灭生"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1529"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_zhangzun"
+			}
+		}
+	}
+
+	"item_tower_xn_zhouyi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/周佚"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1530"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_zhouyi"
+			}
+		}
+	}
+
+	"item_tower_dldl_xiaowu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/小舞"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1531"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_xiaowu"
+			}
+		}
+	}
+
+	"item_tower_dldl_zhuzhuqing"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/朱竹清"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1532"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_zhuzhuqing"
+			}
+		}
+	}
+
+	"item_tower_dldl_daimubai"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戴沐白"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1533"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_daimubai"
+			}
+		}
+	}
+
+	"item_tower_dldl_ningrongrong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/宁荣荣"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1534"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_ningrongrong"
+			}
+		}
+	}
+
+	"item_tower_dldl_mahongjun"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/马红俊"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1535"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_mahongjun"
+			}
+		}
+	}
+
+	"item_tower_dldl_aosika"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/奥斯卡"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1536"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_aosika"
+			}
+		}
+	}
+
+	"item_tower_jdj_qinshiqi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/秦十七"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1537"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_qinshiqi"
+			}
+		}
+	}
+
+	"item_tower_jdj_liaoyuan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/了原"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1538"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_liaoyuan"
+			}
+		}
+	}
+
+	"item_tower_xylz_tianxinniangniang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/天心娘娘"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1539"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_tianxinniangniang"
+			}
+		}
+	}
+
+	"item_tower_xylz_jinshengzushen"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/金圣祖神"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1540"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_jinshengzushen"
+			}
+		}
+	}
+
+	"item_tower_xylz_jixingzushen"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/极星祖神"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1541"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_jixingzushen"
+			}
+		}
+	}
+
+	"item_tower_tsxk_hundunchengzhu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/混沌城主"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1542"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_hundunchengzhu"
+			}
+		}
+	}
+
+	"item_tower_tsxk_jufu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/巨斧"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1543"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_jufu"
+			}
+		}
+	}
+
+	"item_tower_dpcq_xiaoxuner"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/萧薰儿"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1544"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_xiaoxuner"
+			}
+		}
+	}
+
+	"item_tower_dpcq_cailin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/彩鳞"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1545"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_cailin"
+			}
+		}
+	}
+
+	"item_tower_dpcq_ziyan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/紫妍"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1546"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_ziyan"
+			}
+		}
+	}
+
+	"item_tower_dpcq_xiaoyixian"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/小医仙"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1547"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_xiaoyixian"
+			}
+		}
+	}
+
+	"item_tower_wdqk_lingqingzhu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/绫清竹"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1548"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_lingqingzhu"
+			}
+		}
+	}
+
+	"item_tower_wdqk_yinghuanhuan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/应欢欢"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1549"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_yinghuanhuan"
+			}
+		}
+	}
+
+	"item_tower_wdqk_linqingtan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林青檀"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1550"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_linqingtan"
+			}
+		}
+	}
+
+	"item_tower_mhj_yiyeer"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/伊耶尔"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1551"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_yiyeer"
+			}
+		}
+	}
+
+	"item_tower_mhj_taichu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/太初"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1552"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_taichu"
+			}
+		}
+	}
+
+	"item_tower_dzz_jiuyou"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/九幽"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1553"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_jiuyou"
+			}
+		}
+	}
+
+	"item_tower_dzz_linjing"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林静"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1554"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_linjing"
+			}
+		}
+	}
+
+	"item_tower_dzz_xiaoxiao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/萧潇"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1555"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_xiaoxiao"
+			}
+		}
+	}
+
+	"item_tower_dzz_xiaolin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/萧霖"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1556"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_xiaolin"
+			}
+		}
+	}
+
+	"item_tower_zt_jiangtaixu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/姜太虚"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1557"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_jiangtaixu"
+			}
+		}
+	}
+
+	"item_tower_zt_qingdi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/青帝"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1558"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_qingdi"
+			}
+		}
+	}
+
+	"item_tower_wmsj_liushen"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/柳神"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1887"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_liushen"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_jiujianxian"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/酒剑仙"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1896"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_jiujianxian"
+			}
+		}
+	}
+
+	"item_tower_zx_cangsongdaoren"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/苍松道人"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1869"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_cangsongdaoren"
+			}
+		}
+	}
+
+	"item_tower_zx_daoxuanzhenren"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/道玄真人"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1870"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_daoxuanzhenren"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_shizhanglao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/石长老"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1897"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_shizhanglao"
+			}
+		}
+	}
+
+	"item_tower_wmsj_caoyusheng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/曹雨生"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1888"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_caoyusheng"
+			}
+		}
+	}
+
+	"item_tower_wwdx_tianqin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/天琴"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1559"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_tianqin"
+			}
+		}
+	}
+
+	"item_tower_wwdx_mingling"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/冥灵"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1560"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_mingling"
+			}
+		}
+	}
+
+	"item_tower_wwdx_hongzhi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/弘治"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1561"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_hongzhi"
+			}
+		}
+	}
+
+	"item_tower_qm_xuanzang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/玄葬"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1563"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_xuanzang"
+			}
+		}
+	}
+
+	"item_tower_qm_mieshenglaoren"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/灭生老人"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1564"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_mieshenglaoren"
+			}
+		}
+	}
+
+	"item_tower_qm_tianxiezi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/天邪子"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1565"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_tianxiezi"
+			}
+		}
+	}
+
+	"item_tower_dzhz_liyixuan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/李亿玄"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1566"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_liyixuan"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dzhz_junniansheng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/君念生"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1567"
+		"ItemQuality"	"common"
+		"ItemCost"	"5000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_junniansheng"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"1"
+			}
+		}
+	}
+
+	"item_tower_xcb_houfei"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/侯费"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1568"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_houfei"
+			}
+		}
+	}
+
+	"item_tower_xcb_heiyu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/黑羽"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1569"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_heiyu"
+			}
+		}
+	}
+
+	"item_tower_pl_dikexi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/迪克西"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1570"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_dikexi"
+			}
+		}
+	}
+
+	"item_tower_pl_aoliweiya"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/奥利维亚"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1571"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_aoliweiya"
+			}
+		}
+	}
+
+	"item_tower_xn_tianyunzi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/天运子"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1572"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_tianyunzi"
+			}
+		}
+	}
+
+	"item_tower_xn_mubingmei"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/木冰眉"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1573"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_mubingmei"
+			}
+		}
+	}
+
+	"item_tower_xn_liqianmei"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/李倩梅"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1574"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_liqianmei"
+			}
+		}
+	}
+
+	"item_tower_dldl_bibidong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/比比东"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1575"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_bibidong"
+			}
+		}
+	}
+
+	"item_tower_dldl_bosaixi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/波塞西"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1576"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_bosaixi"
+			}
+		}
+	}
+
+	"item_tower_dldl_tangchen"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/唐晨"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1577"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_tangchen"
+			}
+		}
+	}
+
+	"item_tower_jdj_zhugeyuanhong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/诸葛元洪"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1578"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_zhugeyuanhong"
+			}
+		}
+	}
+
+	"item_tower_jdj_guyong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/古雍"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1579"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_guyong"
+			}
+		}
+	}
+
+	"item_tower_xylz_shengzhu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/圣主"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1580"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_shengzhu"
+			}
+		}
+	}
+
+	"item_tower_xylz_shi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/石"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1581"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_shi"
+			}
+		}
+	}
+
+	"item_tower_tsxk_leishen"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/雷神"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1582"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_leishen"
+			}
+		}
+	}
+
+	"item_tower_tsxk_hong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/洪"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1583"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_hong"
+			}
+		}
+	}
+
+	"item_tower_dpcq_huntiandi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魂天帝"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1584"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_huntiandi"
+			}
+		}
+	}
+
+	"item_tower_dpcq_guyuan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/古元"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1585"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_guyuan"
+			}
+		}
+	}
+
+	"item_tower_wdqk_lindiao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林貂"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1586"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_lindiao"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_wdqk_linyan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林炎"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1587"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_linyan"
+			}
+		}
+	}
+
+	"item_tower_wdqk_dahuangdi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/大荒帝"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1588"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_dahuangdi"
+			}
+		}
+	}
+
+	"item_tower_mhj_mangyazhuzai"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/芒涯主宰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1589"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_mangyazhuzai"
+			}
+		}
+	}
+
+	"item_tower_mhj_minglanzhuzai"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/冥兰主宰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1590"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_minglanzhuzai"
+			}
+		}
+	}
+
+	"item_tower_dzz_xitianzhanhuang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/西天战皇"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1591"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_xitianzhanhuang"
+			}
+		}
+	}
+
+	"item_tower_dzz_futuxuan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/浮屠玄"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1592"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_futuxuan"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"4"
+			}
+		}
+	}
+
+	"item_tower_dzz_taiminglaozu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/太冥老祖"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1593"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_taiminglaozu"
+			}
+		}
+	}
+
+	"item_tower_zt_jiziyue"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/姬紫月"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1594"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_jiziyue"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_zt_jihaoyue"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/姬皓月"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1595"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_jihaoyue"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_zt_pangbo"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/庞博"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1596"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_pangbo"
+			}
+		}
+	}
+
+	"item_tower_wwdx_sunwukong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/孙悟空"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1597"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_sunwukong"
+			}
+		}
+	}
+
+	"item_tower_wmsj_shiyi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/石毅"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1889"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_shiyi"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_chiguiwang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/赤鬼王"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1898"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_chiguiwang"
+			}
+		}
+	}
+
+	"item_tower_zx_suru"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/苏茹"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1871"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_suru"
+			}
+		}
+	}
+
+	"item_tower_zx_tianbuyi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/田不易"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1906"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_tianbuyi"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_tangyu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/唐钰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1899"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_tangyu"
+			}
+		}
+	}
+
+	"item_tower_wmsj_qinhao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/秦昊"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1890"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_qinhao"
+			}
+		}
+	}
+
+	"item_tower_wwdx_lifeng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戾峰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1598"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_lifeng"
+			}
+		}
+	}
+
+	"item_tower_wwdx_liuchenxiang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/刘沉香"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1599"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_liuchenxiang"
+			}
+		}
+	}
+
+	"item_tower_qm_xinggan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/刑干"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1600"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_xinggan"
+			}
+		}
+	}
+
+	"item_tower_qm_huayanyue"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/花颜月"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1601"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_huayanyue"
+			}
+		}
+	}
+
+	"item_tower_qm_huzi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/虎子"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1602"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_huzi"
+			}
+		}
+	}
+
+	"item_tower_dzhz_fangyin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/方胤"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1603"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_fangyin"
+			}
+		}
+	}
+
+	"item_tower_dzhz_fanglin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/方林"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1604"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_fanglin"
+			}
+		}
+	}
+
+	"item_tower_xcb_jiangli"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/姜立"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1605"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_jiangli"
+			}
+		}
+	}
+
+	"item_tower_xcb_jianglan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/澜叔"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1606"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_jianglan"
+			}
+		}
+	}
+
+	"item_tower_pl_danningdun"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/丹宁顿"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1607"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_danningdun"
+			}
+		}
+	}
+
+	"item_tower_pl_leisijing"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/雷斯晶"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1608"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_leisijing"
+			}
+		}
+	}
+
+	"item_tower_xn_liujinbiao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/刘金彪"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1609"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_liujinbiao"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"4"
+			}
+		}
+	}
+
+	"item_tower_xn_tanlang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/贪狼"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1610"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_tanlang"
+			}
+		}
+	}
+
+	"item_tower_dldl_ayin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/阿银"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1611"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_ayin"
+			}
+		}
+	}
+
+	"item_tower_dldl_tanghao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/唐昊"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1612"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_tanghao"
+			}
+		}
+	}
+
+	"item_tower_jdj_tengshou"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/滕兽"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1613"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_tengshou"
+			}
+		}
+	}
+
+	"item_tower_jdj_yangdong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/杨冬"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1614"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_yangdong"
+			}
+		}
+	}
+
+	"item_tower_jdj_xuexin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/薛辛"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1615"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_xuexin"
+			}
+		}
+	}
+
+	"item_tower_xylz_xuerenshendi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/血刃神帝"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1616"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_xuerenshendi"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"4"
+			}
+		}
+	}
+
+	"item_tower_xylz_guqi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/古亓"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1617"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_guqi"
+			}
+		}
+	}
+
+	"item_tower_tsxk_bolan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/伯兰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1618"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_bolan"
+			}
+		}
+	}
+
+	"item_tower_tsxk_rongjun"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戎钧"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1619"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_rongjun"
+			}
+		}
+	}
+
+	"item_tower_dpcq_nalanyanran"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/纳兰嫣然"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1620"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_nalanyanran"
+			}
+		}
+	}
+
+	"item_tower_wdqk_linlangtian"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林琅天"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1621"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_linlangtian"
+			}
+		}
+	}
+
+	"item_tower_wdqk_mulingshan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/慕灵珊"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1622"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_mulingshan"
+			}
+		}
+	}
+
+	"item_tower_wdqk_tangxinlian"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/唐心莲"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1623"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_tangxinlian"
+			}
+		}
+	}
+
+	"item_tower_mhj_suyouji"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/苏尤姬"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1624"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_suyouji"
+			}
+		}
+	}
+
+	"item_tower_wmsj_yuechan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/月婵"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1891"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_yuechan"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_linyueru"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林月如"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1900"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_linyueru"
+			}
+		}
+	}
+
+	"item_tower_zx_dubishu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/杜必书"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1907"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_dubishu"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"3"
+			}
+		}
+	}
+
+	"item_tower_zx_xiaoyicai"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/萧逸才"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1908"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_xiaoyicai"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_anu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/阿奴"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1901"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_anu"
+			}
+		}
+	}
+
+	"item_tower_wmsj_huolinger"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/火灵儿"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1892"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_huolinger"
+			}
+		}
+	}
+
+	"item_tower_mhj_danbao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/丹宝"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1625"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_danbao"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dzz_mantuoluo"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/曼陀罗"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1626"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_mantuoluo"
+			}
+		}
+	}
+
+	"item_tower_dzz_lingxi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/灵溪"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1627"
+		"ItemQuality"	"common"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_lingxi"
+			}
+		}
+	}
+
+	"item_tower_zt_yaoguangshengzi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/摇光圣子"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1628"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_yaoguangshengzi"
+			}
+		}
+	}
+
+	"item_tower_zt_xiaopengwang"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/小鹏王"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1629"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_xiaopengwang"
+			}
+		}
+	}
+
+	"item_tower_zt_kongqueshengzi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/孔雀圣子"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1630"
+		"ItemQuality"	"common"
+		"ItemCost"	"1500"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_kongqueshengzi"
+			}
+		}
+	}
+
+	"item_tower_wwdx_piaomiao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飘渺"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1631"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_piaomiao"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"4"
+			}
+		}
+	}
+
+	"item_tower_wwdx_mengyun"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/梦云"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1632"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_mengyun"
+			}
+		}
+	}
+
+	"item_tower_qm_ditian"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/帝天"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1633"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_ditian"
+			}
+		}
+	}
+
+	"item_tower_qm_suxuanyi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/苏轩衣"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1634"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_suxuanyi"
+			}
+		}
+	}
+
+	"item_tower_qm_tumaohe"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/秃毛鹤"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1635"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_tumaohe"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"1"
+			}
+		}
+	}
+
+	"item_tower_dzhz_liuqi"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/刘启"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1636"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_liuqi"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_dzhz_liuche"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/刘彻"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1637"
+		"ItemQuality"	"common"
+		"ItemCost"	"400"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_liuche"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"existLimit"	"2"
+			}
+		}
+	}
+
+	"item_tower_xcb_linlin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林霖"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1638"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_linlin"
+			}
+		}
+	}
+
+	"item_tower_xcb_liuhanshu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/柳寒舒"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1639"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xcb_liuhanshu"
+			}
+		}
+	}
+
+	"item_tower_pl_aobulaien"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/奥布莱恩"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1640"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_pl_aobulaien"
+			}
+		}
+	}
+
+	"item_tower_xn_limuwan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/李慕婉"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1641"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_limuwan"
+			}
+		}
+	}
+
+	"item_tower_xn_datou"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/大头"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1642"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xn_datou"
+			}
+		}
+	}
+
+	"item_tower_dldl_zhaowuji"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/赵无极"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1643"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_zhaowuji"
+			}
+		}
+	}
+
+	"item_tower_dldl_fulande"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/弗兰德"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1644"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_fulande"
+			}
+		}
+	}
+
+	"item_tower_dldl_liuerlong"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/柳二龙"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1645"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dldl_liuerlong"
+			}
+		}
+	}
+
+	"item_tower_jdj_gushiyou"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/古世友"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1646"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_gushiyou"
+			}
+		}
+	}
+
+	"item_tower_jdj_yandanchen"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/阎丹辰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1647"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_jdj_yandanchen"
+			}
+		}
+	}
+
+	"item_tower_xylz_yujingqiu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/余靖秋"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1648"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_yujingqiu"
+			}
+		}
+	}
+
+	"item_tower_xylz_chiqiubai"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/池丘白"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1649"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xylz_chiqiubai"
+			}
+		}
+	}
+
+	"item_tower_tsxk_fenglun"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/风轮"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1650"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_fenglun"
+			}
+		}
+	}
+
+	"item_tower_tsxk_mochuei"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔锤"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1651"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_tsxk_mochuei"
+			}
+		}
+	}
+
+	"item_tower_dpcq_hanfeng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/韩枫"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1652"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_hanfeng"
+			}
+		}
+	}
+
+	"item_tower_dpcq_yunshan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/云山"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1653"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dpcq_yunshan"
+			}
+		}
+	}
+
+	"item_tower_wdqk_linzhentian"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林震天"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1654"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_linzhentian"
+			}
+		}
+	}
+
+	"item_tower_wdqk_linxiao"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林啸"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1655"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wdqk_linxiao"
+			}
+		}
+	}
+
+	"item_tower_mhj_yuwei"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/余薇"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1656"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_mhj_yuwei"
+			}
+		}
+	}
+
+	"item_tower_dzz_qingyanjing"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/清衍静"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1657"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_qingyanjing"
+			}
+		}
+	}
+
+	"item_tower_dzz_mufeng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/牧锋"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1658"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzz_mufeng"
+			}
+		}
+	}
+
+	"item_tower_zt_lixiaoman"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/李小曼"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1659"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_lixiaoman"
+			}
+		}
+	}
+
+	"item_tower_zt_tufei"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/涂飞"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1660"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zt_tufei"
+			}
+		}
+	}
+
+	"item_tower_wwdx_yuhua"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/玉华"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1661"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_yuhua"
+			}
+		}
+	}
+
+	"item_tower_wwdx_yuping"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/玉萍"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1662"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wwdx_yuping"
+			}
+		}
+	}
+
+	"item_tower_qm_yuxuan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/雨萱"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1663"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_yuxuan"
+			}
+		}
+	}
+
+	"item_tower_qm_xuhui"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/许慧"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1664"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_xuhui"
+			}
+		}
+	}
+
+	"item_tower_qm_fangcanglan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/方沧兰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1665"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_qm_fangcanglan"
+			}
+		}
+	}
+
+	"item_tower_dzhz_gushejunzhu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/姑射郡主"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1666"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_gushejunzhu"
+			}
+		}
+	}
+
+	"item_tower_dzhz_jidugongzhu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/计都公主"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1667"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_dzhz_jidugongzhu"
+			}
+		}
+	}
+
+	"item_tower_wmsj_shilinhu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/石林虎"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1893"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_shilinhu"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_lintiannan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/林天南"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1902"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_lintiannan"
+			}
+		}
+	}
+
+	"item_tower_xjqxz_wangxiaohu"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/王小虎"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1903"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_xjqxz_wangxiaohu"
+			}
+		}
+	}
+
+	"item_tower_zx_tianlinger"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/田灵儿"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1909"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_tianlinger"
+			}
+		}
+	}
+
+	"item_tower_zx_songdaren"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/宋大仁"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1910"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_zx_songdaren"
+			}
+		}
+	}
+
+	"item_tower_wmsj_shiyunfeng"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/石云峰"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityCastRange"	"150"
+		"AOERadius"	"60"
+		"ID"	"1894"
+		"ItemQuality"	"common"
+		"ItemCost"	"100"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"SecretShop"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"Target"	"POINT"
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"tower_build"
+				"unitName"	"tower_wmsj_shiyunfeng"
+			}
+		}
+	}
+
+	
+}

@@ -1,0 +1,8619 @@
+#base "split/towers.kv"
+// Dota2 Editor
+// Get latest version: https://github.com/zombieJ/nw-dota2editor
+
+"DOTAAbilities"
+{
+
+	"item_jsst1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/加速手套12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1500"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jsst1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"4"
+			}
+		}
+	}
+
+	"item_jj_jsst1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/疾风珠"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1825"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_jsst1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"14"
+			}
+		}
+	}
+
+	"item_jj_jsst2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/御风符"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1826"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_jsst2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"21"
+			}
+		}
+	}
+
+	"item_jj_jsst3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/黑狗钉"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1827"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_jsst3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+		}
+	}
+
+	"item_jj_jsst4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/天芒神针"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1828"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_jsst4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"50"
+			}
+		}
+	}
+
+	"item_jj_jsst5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/天星灵符"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1829"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_jsst5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"80"
+			}
+		}
+	}
+
+	"item_jj_jsst6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/二气环"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1830"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_jsst6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"120"
+			}
+		}
+	}
+
+	"item_jj_jsst7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/诸天庆云"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1831"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_jsst7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"180"
+			}
+		}
+	}
+
+	"item_jsst2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/加速手套12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1562"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jsst2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"8"
+			}
+		}
+	}
+
+	"item_jsst3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/加速手套12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1668"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jsst3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"15"
+			}
+		}
+	}
+
+	"item_jsst4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/加速手套34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1669"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jsst4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+		}
+	}
+
+	"item_jsst5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/加速手套34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1670"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jsst5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"50"
+			}
+		}
+	}
+
+	"item_jsst6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/加速手套567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1671"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jsst6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"80"
+			}
+		}
+	}
+
+	"item_jsst7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/加速手套567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1672"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jsst7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"120"
+			}
+		}
+	}
+
+	"item_gjzz1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/攻击之爪12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1673"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gjzz1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"20"
+			}
+		}
+	}
+
+	"item_jj_gjzz1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞霜剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1818"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_gjzz1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"40"
+			}
+		}
+	}
+
+	"item_jj_twzj3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/太吾真剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1866"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_twzj"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%ratio"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"100"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio"	"20"
+			}
+		}
+	}
+
+	"item_jj_lfj4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/罗浮剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1867"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_lfj4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%ratio"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"200"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio"	"30"
+			}
+		}
+	}
+
+	"item_jj_ycj3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/鱼肠剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1872"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_ycj3"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"AllowIllusionDuplicate"	"1"
+				"OnAttackStart"
+				{
+					"Random"
+					{
+						"OnSuccess"
+						{
+							"ApplyModifier"
+							{
+								"Target"	"CASTER"
+								"ModifierName"	"modifier_item_jj_ycj3_2"
+							}
+						}
+						"Chance"	"%chance"
+					}
+				}
+			}
+			"modifier_item_jj_ycj3_2"
+			{
+				"IsHidden"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE"	"%ratio"
+				}
+				"OnAttackLanded"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"CASTER"
+						"ModifierName"	"modifier_item_jj_ycj3_2"
+					}
+				}
+				"AllowIllusionDuplicate"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio"	"50"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio1"	"5"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"chance"	"30"
+			}
+		}
+	}
+
+	"item_jj_yysd4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/鸳鸯双刀"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1873"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_yysd4"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"AllowIllusionDuplicate"	"1"
+				"OnAttackStart"
+				{
+					"Random"
+					{
+						"OnSuccess"
+						{
+							"ApplyModifier"
+							{
+								"Target"	"CASTER"
+								"ModifierName"	"modifier_item_jj_yysd4_2"
+							}
+						}
+						"Chance"	"%chance"
+					}
+				}
+			}
+			"modifier_item_jj_yysd4_2"
+			{
+				"IsHidden"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE"	"%ratio"
+				}
+				"OnAttackLanded"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"CASTER"
+						"ModifierName"	"modifier_item_jj_yysd4_2"
+					}
+				}
+				"AllowIllusionDuplicate"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio"	"80"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio1"	"8"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"chance"	"30"
+			}
+		}
+	}
+
+	"item_jj_syxd5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/三阳仙刀"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1874"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_syxd5"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"AllowIllusionDuplicate"	"1"
+				"OnAttackStart"
+				{
+					"Random"
+					{
+						"OnSuccess"
+						{
+							"ApplyModifier"
+							{
+								"Target"	"CASTER"
+								"ModifierName"	"modifier_item_jj_syxd5_2"
+							}
+						}
+						"Chance"	"%chance"
+					}
+				}
+			}
+			"modifier_item_jj_syxd5_2"
+			{
+				"IsHidden"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE"	"%ratio"
+				}
+				"OnAttackLanded"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"CASTER"
+						"ModifierName"	"modifier_item_jj_syxd5_2"
+					}
+				}
+				"AllowIllusionDuplicate"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio"	"130"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"ratio1"	"13"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"chance"	"30"
+			}
+		}
+	}
+
+	"item_jj_gjzz2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/坎山剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1819"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_gjzz2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"80"
+			}
+		}
+	}
+
+	"item_jj_gjzz3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/玄天灵剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1820"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_gjzz3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"160"
+			}
+		}
+	}
+
+	"item_jj_gjzz4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/午阳剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1821"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_gjzz4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"320"
+			}
+		}
+	}
+
+	"item_jj_gjzz5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/画眉剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1822"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_gjzz5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"640"
+			}
+		}
+	}
+
+	"item_jj_gjzz6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/七星剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1823"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_gjzz6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"1280"
+			}
+		}
+	}
+
+	"item_jj_gjzz7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/轩辕剑"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1824"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_gjzz7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"2560"
+			}
+		}
+	}
+
+	"item_wq_am_2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/破甲之刃"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1782"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_am_2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+			"modifier_item_wq_am_2_2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_3"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_3"
+			{
+				"Duration"	"%duration"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_2_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_wq_am_2"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_2_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_wq_am_2"
+					}
+				}
+				"IsHidden"	"1"
+			}
+			"modifier_item_wq_am_2_4"
+			{
+				"TextureName"	"item_monkey_king_bar"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"40"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-20"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"3"
+			}
+		}
+	}
+
+	"item_wq_am_1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/破甲之刃"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1785"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_am_1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+			}
+			"modifier_item_wq_am_1_2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_3"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_3"
+			{
+				"Duration"	"%duration"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_wq_am_1"
+					}
+				}
+				"IsHidden"	"1"
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_wq_am_1"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_4"
+			{
+				"TextureName"	"item_monkey_king_bar"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"20"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-10"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"3"
+			}
+		}
+	}
+
+	"item_wq_sscg_1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/射手长弓12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1811"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_sscg_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"IsBuff"	"0"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddAttackRangeModifier"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveModifiersByName"
+						"modifier"	"td_multiple_modifier_attack_range"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"40"
+			}
+		}
+	}
+
+	"item_wq_sscg_2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/射手长弓12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1812"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_sscg_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"IsBuff"	"0"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddAttackRangeModifier"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveModifiersByName"
+						"modifier"	"td_multiple_modifier_attack_range"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"80"
+			}
+		}
+	}
+
+	"item_wq_sscg_3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/射手长弓12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1813"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_sscg_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"IsBuff"	"0"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddAttackRangeModifier"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveModifiersByName"
+						"modifier"	"td_multiple_modifier_attack_range"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"120"
+			}
+		}
+	}
+
+	"item_wq_sscg_4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/射手长弓34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1814"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_sscg_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"IsBuff"	"0"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddAttackRangeModifier"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveModifiersByName"
+						"modifier"	"td_multiple_modifier_attack_range"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"160"
+			}
+		}
+	}
+
+	"item_wq_sscg_5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/射手长弓34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1815"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_sscg_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"IsBuff"	"0"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddAttackRangeModifier"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveModifiersByName"
+						"modifier"	"td_multiple_modifier_attack_range"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"200"
+			}
+		}
+	}
+
+	"item_wq_sscg_6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/射手长弓567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1816"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_sscg_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"IsBuff"	"0"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddAttackRangeModifier"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveModifiersByName"
+						"modifier"	"td_multiple_modifier_attack_range"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"300"
+			}
+		}
+	}
+
+	"item_wq_sscg_7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/射手长弓567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1817"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_sscg_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"IsBuff"	"0"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddAttackRangeModifier"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Target"	"CASTER"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveModifiersByName"
+						"modifier"	"td_multiple_modifier_attack_range"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"500"
+			}
+		}
+	}
+
+	"item_wq_am_3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/破甲之刃"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1783"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_am_3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+			"modifier_item_wq_am_3_2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_3"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_3"
+			{
+				"Duration"	"%duration"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_3_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_wq_am_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_3_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_wq_am_3"
+					}
+				}
+				"IsHidden"	"1"
+			}
+			"modifier_item_wq_am_3_4"
+			{
+				"TextureName"	"item_monkey_king_bar"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"80"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-30"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"3"
+			}
+		}
+	}
+
+	"item_wq_am_4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/破甲之刃34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1786"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_am_4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+			"modifier_item_wq_am_4_2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_3"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_3"
+			{
+				"Duration"	"%duration"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_4_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_wq_am_4"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_4_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_wq_am_4"
+					}
+				}
+				"IsHidden"	"1"
+			}
+			"modifier_item_wq_am_4_4"
+			{
+				"TextureName"	"item_monkey_king_bar"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%reduce"
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"160"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-50"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"3"
+			}
+		}
+	}
+
+	"item_wq_am_5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/破甲之刃34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1787"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_am_5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+			"modifier_item_wq_am_5_2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_3"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_3"
+			{
+				"Duration"	"%duration"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_5_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_wq_am_5"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_5_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_wq_am_5"
+					}
+				}
+				"IsHidden"	"1"
+			}
+			"modifier_item_wq_am_5_4"
+			{
+				"TextureName"	"item_monkey_king_bar"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"320"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-80"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"3"
+			}
+		}
+	}
+
+	"item_wq_am_6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/破甲之刃567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1788"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_am_6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+			"modifier_item_wq_am_6_2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_3"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_3"
+			{
+				"Duration"	"%duration"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_6_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_wq_am_6"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_6_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_wq_am_6"
+					}
+				}
+				"IsHidden"	"1"
+			}
+			"modifier_item_wq_am_6_4"
+			{
+				"TextureName"	"item_monkey_king_bar"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"640"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-130"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"3"
+			}
+		}
+	}
+
+	"item_wq_am_7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/破甲之刃567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1789"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_wq_am_7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+			"modifier_item_wq_am_7_2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_1_3"
+					}
+				}
+			}
+			"modifier_item_wq_am_1_3"
+			{
+				"Duration"	"%duration"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_7_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_wq_am_7"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_wq_am_7_4"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_wq_am_7"
+					}
+				}
+				"IsHidden"	"1"
+			}
+			"modifier_item_wq_am_7_4"
+			{
+				"TextureName"	"item_monkey_king_bar"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"1280"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-220"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"3"
+			}
+		}
+	}
+
+	"item_gjzz2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/攻击之爪12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1674"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gjzz2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"40"
+			}
+		}
+	}
+
+	"item_gjzz3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/攻击之爪12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1675"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gjzz3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"80"
+			}
+		}
+	}
+
+	"item_gjzz4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/攻击之爪34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1676"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gjzz4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"160"
+			}
+		}
+	}
+
+	"item_gjzz5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/攻击之爪34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1677"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gjzz5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"320"
+			}
+		}
+	}
+
+	"item_gjzz6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/攻击之爪567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1678"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gjzz6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"640"
+			}
+		}
+	}
+
+	"item_gjzz7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/攻击之爪567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1679"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gjzz7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"1280"
+			}
+		}
+	}
+
+	"item_mljj1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔力结晶12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1680"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_mljj1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"2"
+			}
+		}
+	}
+
+	"item_jj_mljj1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/家传宝玉"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1832"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_mljj1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"5"
+			}
+		}
+	}
+
+	"item_jj_mljj2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/精钢护腕"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1833"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_mljj2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"10"
+			}
+		}
+	}
+
+	"item_jj_mljj3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/太冥道盔"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1834"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_mljj3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"15"
+			}
+		}
+	}
+
+	"item_jj_mljj4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/伏魔金环"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1835"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_mljj4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"25"
+			}
+		}
+	}
+
+	"item_jj_mljj5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/罗浮心灯"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1836"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_mljj5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"50"
+			}
+		}
+	}
+
+	"item_jj_mljj6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/八景宫灯"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1837"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_mljj6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"100"
+			}
+		}
+	}
+
+	"item_jj_mljj7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/乾坤图"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
+		"ID"	"1838"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_mljj7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"200"
+			}
+		}
+	}
+
+	"item_mljj2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔力结晶12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1681"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_mljj2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"5"
+			}
+		}
+	}
+
+	"item_mljj3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔力结晶12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1682"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_mljj3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"10"
+			}
+		}
+	}
+
+	"item_mljj4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔力结晶34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1683"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_mljj4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"17"
+			}
+		}
+	}
+
+	"item_mljj5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔力结晶34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1684"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_mljj5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+		}
+	}
+
+	"item_mljj6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔力结晶567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1685"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_mljj6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"50"
+			}
+		}
+	}
+
+	"item_mljj7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/魔力结晶567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1686"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_mljj7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"100"
+			}
+		}
+	}
+
+	"item_fsjz1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戒指12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1687"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fsjz1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"0.4"
+			}
+		}
+	}
+
+	"item_jj_fsjz1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/清心宝玉"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1846"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fsjz1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"0.7"
+			}
+		}
+	}
+
+	"item_jj_fsjz2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/聚灵盘"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1847"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fsjz2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"1.2"
+			}
+		}
+	}
+
+	"item_jj_fsjz3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/纳灵珠"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1848"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fsjz3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"1.9"
+			}
+		}
+	}
+
+	"item_jj_fsjz4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/都天玄冥策"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1849"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fsjz4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"3.2"
+			}
+		}
+	}
+
+	"item_jj_fsjz5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/斩灵玉咒"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1850"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fsjz5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"5"
+			}
+		}
+	}
+
+	"item_jj_fsjz6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/紫金红葫芦"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1851"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fsjz6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"9"
+			}
+		}
+	}
+
+	"item_jj_fsjz7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/混沌青莲"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1852"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fsjz7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"15"
+			}
+		}
+	}
+
+	"item_fsjz2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戒指12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1688"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fsjz2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"0.7"
+			}
+		}
+	}
+
+	"item_fsjz3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戒指12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1689"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fsjz3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"1.2"
+			}
+		}
+	}
+
+	"item_fsjz4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戒指34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1690"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fsjz4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"1.9"
+			}
+		}
+	}
+
+	"item_fsjz5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戒指34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1691"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fsjz5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"3.2"
+			}
+		}
+	}
+
+	"item_fsjz6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戒指567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1692"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fsjz6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"5"
+			}
+		}
+	}
+
+	"item_fsjz7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/戒指567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1693"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fsjz7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"10"
+			}
+		}
+	}
+
+	"item_fslj1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术精灵12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1694"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fslj1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"1"
+			}
+		}
+	}
+
+	"item_jj_fslj1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/护心镜"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1839"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fslj1"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"2"
+			}
+		}
+	}
+
+	"item_jj_fslj2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/紫金钵盂"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1840"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fslj2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"4"
+			}
+		}
+	}
+
+	"item_jj_fslj3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/百鬼锁阴袍"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1841"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fslj3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"8"
+			}
+		}
+	}
+
+	"item_jj_fslj4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/九策玄昊签"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1842"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fslj4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"15"
+			}
+		}
+	}
+
+	"item_jj_fslj5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/九宫星盘"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1843"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fslj5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+		}
+	}
+
+	"item_jj_fslj6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/羊脂玉净瓶"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1844"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fslj6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"60"
+			}
+		}
+	}
+
+	"item_jj_fslj7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/造化玉牒"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1845"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fslj7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"120"
+			}
+		}
+	}
+
+	"item_fslj2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术精灵12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1747"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemAlertable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fslj2"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"2"
+			}
+		}
+	}
+
+	"item_fslj3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术精灵12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1748"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fslj3"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"4"
+			}
+		}
+	}
+
+	"item_fslj4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术精灵34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1749"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fslj4"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"7"
+			}
+		}
+	}
+
+	"item_fslj5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术精灵34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1750"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fslj5"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"12"
+			}
+		}
+	}
+
+	"item_fslj6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术精灵567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1751"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fslj6"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"20"
+			}
+		}
+	}
+
+	"item_fslj7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术精灵567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1752"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fslj7"
+			{
+				"Passive"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"40"
+			}
+		}
+	}
+
+	"item_fszg1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术之光12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1695"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fszg1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"1"
+			}
+		}
+	}
+
+	"item_jj_fszg1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/镶金宝玉"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1853"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fszg1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"2"
+			}
+		}
+	}
+
+	"item_jj_fszg2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/半部残卷"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1854"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fszg2"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"RemoveManaCostReduce"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"3"
+			}
+		}
+	}
+
+	"item_jj_fszg3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/摄心镜"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1855"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fszg3"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"5"
+			}
+		}
+	}
+
+	"item_jj_fszg4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/紫虫钟"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1856"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fszg4"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"8"
+			}
+		}
+	}
+
+	"item_jj_fszg5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/大有圈"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1857"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fszg5"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"12"
+			}
+		}
+	}
+
+	"item_jj_fszg6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/混元珠"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1858"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fszg6"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"20"
+			}
+		}
+	}
+
+	"item_jj_fszg7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/泥犁珠"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1859"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_jj_fszg77"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+		}
+	}
+
+	"item_fszg2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术之光12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1696"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemAlertable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fszg2"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"2"
+			}
+		}
+	}
+
+	"item_fszg3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术之光12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1697"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fszg3"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"3"
+			}
+		}
+	}
+
+	"item_fszg4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术之光34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1698"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fszg4"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"5"
+			}
+		}
+	}
+
+	"item_fszg5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术之光34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1699"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fszg5"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"8"
+			}
+		}
+	}
+
+	"item_fszg6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术之光567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1700"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fszg6"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"12"
+			}
+		}
+	}
+
+	"item_fszg7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/法术之光567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1701"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fszg7"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"AddManaCostReduce"
+					}
+				}
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"Function"	"RemoveManaCostReduce"
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+					}
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"20"
+			}
+		}
+	}
+
+	"item_gh_kxzq4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/凯旋挂坠"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1702"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_kxzq"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_kxzq_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_kxzq_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_kxzq_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_kxzq_3"
+					}
+				}
+			}
+			"modifier_item_gh_kxzq_3"
+			{
+				"TextureName"	"item_custom/凯旋挂坠"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"10"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"500"
+			}
+		}
+	}
+
+	"item_gh_bszx_4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/冰霜之心12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1772"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_bszx_4"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_bszx_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_bszx_4_2"
+			{
+				"IsBuff"	"0"
+				"IsDebuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_4_2"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_4_2"
+					}
+				}
+			}
+			"modifier_item_gh_bszx_4_3"
+			{
+				"TextureName"	"item_shivas_guard"
+				"IsBuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsDebuff"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"-10"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"800"
+			}
+		}
+	}
+
+	"item_gh_hypf_2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/烈焰腰带12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1776"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_hypf_2"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnIntervalThink"
+				{
+					"Damage"
+					{
+						"Target"
+						{
+							"Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+							"Center"	"CASTER"
+							"Radius"	"%radius"
+						}
+						"Type"	"DAMAGE_TYPE_PHYSICAL"
+						"Damage"	"%damage"
+					}
+				}
+				"ThinkInterval"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"120"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"700"
+			}
+		}
+	}
+
+	"item_gh_hypf_1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/烈焰腰带12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1784"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_hypf_1"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnIntervalThink"
+				{
+					"Damage"
+					{
+						"Target"
+						{
+							"Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+							"Center"	"CASTER"
+							"Radius"	"%radius"
+						}
+						"Type"	"DAMAGE_TYPE_PHYSICAL"
+						"Damage"	"%damage"
+					}
+				}
+				"ThinkInterval"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"30"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"700"
+			}
+		}
+	}
+
+	"item_gh_hypf_3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/烈焰腰带12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1777"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_hypf_3"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnIntervalThink"
+				{
+					"Damage"
+					{
+						"Target"
+						{
+							"Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+							"Center"	"CASTER"
+							"Radius"	"%radius"
+						}
+						"Type"	"DAMAGE_TYPE_PHYSICAL"
+						"Damage"	"%damage"
+					}
+				}
+				"ThinkInterval"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"600"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"700"
+			}
+		}
+	}
+
+	"item_gh_hypf_4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/烈焰腰带34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1778"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_hypf_4"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnIntervalThink"
+				{
+					"Damage"
+					{
+						"Target"
+						{
+							"Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+							"Center"	"CASTER"
+							"Radius"	"%radius"
+						}
+						"Type"	"DAMAGE_TYPE_PHYSICAL"
+						"Damage"	"%damage"
+					}
+				}
+				"ThinkInterval"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"2500"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"700"
+			}
+		}
+	}
+
+	"item_gh_hypf_5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/烈焰腰带34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1779"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_hypf_5"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnIntervalThink"
+				{
+					"Damage"
+					{
+						"Target"
+						{
+							"Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+							"Center"	"CASTER"
+							"Radius"	"%radius"
+						}
+						"Type"	"DAMAGE_TYPE_PHYSICAL"
+						"Damage"	"%damage"
+					}
+				}
+				"ThinkInterval"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"10000"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"700"
+			}
+		}
+	}
+
+	"item_gh_hypf_6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/烈焰腰带567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1780"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_hypf_6"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnIntervalThink"
+				{
+					"Damage"
+					{
+						"Target"
+						{
+							"Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+							"Center"	"CASTER"
+							"Radius"	"%radius"
+						}
+						"Type"	"DAMAGE_TYPE_PHYSICAL"
+						"Damage"	"%damage"
+					}
+				}
+				"ThinkInterval"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"40000"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"700"
+			}
+		}
+	}
+
+	"item_gh_hypf_7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/烈焰腰带567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1781"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_hypf_7"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+				"States"	{}
+				"OnIntervalThink"
+				{
+					"Damage"
+					{
+						"Target"
+						{
+							"Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+							"Center"	"CASTER"
+							"Radius"	"%radius"
+						}
+						"Type"	"DAMAGE_TYPE_PHYSICAL"
+						"Damage"	"%damage"
+					}
+				}
+				"ThinkInterval"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"150000"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"700"
+			}
+		}
+	}
+
+	"item_gh_bszx_5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/冰霜之心12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1773"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemAlertable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_bszx_5"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_bszx_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_bszx_4_2"
+			{
+				"IsBuff"	"0"
+				"IsDebuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_5_2"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_5_2"
+					}
+				}
+			}
+			"modifier_item_gh_bszx_5_3"
+			{
+				"TextureName"	"item_shivas_guard"
+				"IsBuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsDebuff"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"-20"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"800"
+			}
+		}
+	}
+
+	"item_gh_bszx_6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/冰霜之心34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1774"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_bszx_6"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_bszx_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_bszx_4_2"
+			{
+				"IsBuff"	"0"
+				"IsDebuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_6_2"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_6_2"
+					}
+				}
+			}
+			"modifier_item_gh_bszx_6_3"
+			{
+				"TextureName"	"item_shivas_guard"
+				"IsBuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsDebuff"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"-30"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"800"
+			}
+		}
+	}
+
+	"item_gh_bszx_7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/冰霜之心567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1775"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_bszx_7"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_bszx_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_bszx_4_2"
+			{
+				"IsBuff"	"0"
+				"IsDebuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_7_2"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_bszx_7_2"
+					}
+				}
+			}
+			"modifier_item_gh_bszx_7_3"
+			{
+				"TextureName"	"item_shivas_guard"
+				"IsBuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsDebuff"	"1"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"-50"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"800"
+			}
+		}
+	}
+
+	"item_gh_qxxj_4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/强袭胸甲12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1768"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_qxxj_4"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_qxxj_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_qxxj_4_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_4_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_4_3"
+					}
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_4_3"
+			{
+				"TextureName"	"item_assault"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_4_4"
+			{
+				"Passive"	"1"
+				"Aura"	"modifier_item_gh_qxxj_4_5"
+				"Aura_Radius"	"%radius"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"IsHidden"	"1"
+			}
+			"modifier_item_gh_qxxj_4_5"
+			{
+				"IsDebuff"	"1"
+				"IsHidden"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_4_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_gh_qxxj_4"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_4_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_gh_qxxj_4"
+					}
+				}
+			}
+			"modifier_item_gh_qxxj_4_6"
+			{
+				"TextureName"	"item_assault"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"10"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"1000"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-20"
+			}
+		}
+	}
+
+	"item_gh_qxxj_5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/强袭胸甲12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1769"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_qxxj_5"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_qxxj_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_qxxj_4_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_5_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_5_3"
+					}
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_5_3"
+			{
+				"TextureName"	"item_assault"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_5_4"
+			{
+				"Passive"	"1"
+				"Aura"	"modifier_item_gh_qxxj_4_5"
+				"Aura_Radius"	"%radius"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"IsHidden"	"1"
+			}
+			"modifier_item_gh_qxxj_4_5"
+			{
+				"IsDebuff"	"1"
+				"IsHidden"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_5_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_gh_qxxj_5"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_5_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_gh_qxxj_5"
+					}
+				}
+			}
+			"modifier_item_gh_qxxj_5_6"
+			{
+				"TextureName"	"item_assault"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"20"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"1000"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-40"
+			}
+		}
+	}
+
+	"item_gh_qxxj_6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/强袭胸甲34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1770"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_qxxj_6"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_qxxj_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_qxxj_4_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_6_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_6_3"
+					}
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_6_3"
+			{
+				"TextureName"	"item_assault"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_6_4"
+			{
+				"Passive"	"1"
+				"Aura"	"modifier_item_gh_qxxj_4_5"
+				"Aura_Radius"	"%radius"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"IsHidden"	"1"
+			}
+			"modifier_item_gh_qxxj_4_5"
+			{
+				"IsDebuff"	"1"
+				"IsHidden"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_6_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_gh_qxxj_6"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_6_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_gh_qxxj_6"
+					}
+				}
+			}
+			"modifier_item_gh_qxxj_6_6"
+			{
+				"TextureName"	"item_assault"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"1000"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-70"
+			}
+		}
+	}
+
+	"item_gh_qxxj_7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/强袭胸甲567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1771"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_qxxj_7"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_qxxj_4_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_qxxj_4_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_7_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_7_3"
+					}
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_7_3"
+			{
+				"TextureName"	"item_assault"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+				"IsPurgable"	"1"
+			}
+			"modifier_item_gh_qxxj_7_4"
+			{
+				"Passive"	"1"
+				"Aura"	"modifier_item_gh_qxxj_4_5"
+				"Aura_Radius"	"%radius"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"IsHidden"	"1"
+			}
+			"modifier_item_gh_qxxj_4_5"
+			{
+				"IsDebuff"	"1"
+				"IsHidden"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_7_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"AddCustomArmor"
+						"key"	"item_gh_qxxj_7"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_qxxj_7_6"
+					}
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+						"Function"	"RemoveCustomArmor"
+						"key"	"item_gh_qxxj_7"
+					}
+				}
+			}
+			"modifier_item_gh_qxxj_7_6"
+			{
+				"TextureName"	"item_assault"
+				"IsDebuff"	"1"
+				"IsPurgable"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%armor"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"50"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"1000"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"armor"	"-130"
+			}
+		}
+	}
+
+	"item_gh_gmzx5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/光明之心"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1765"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_gmzx"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_kxzq_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_kxzq_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_gmzx_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_gmzx_3"
+					}
+				}
+			}
+			"modifier_item_gh_gmzx_3"
+			{
+				"TextureName"	"item_custom/凯旋挂坠"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"20"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"500"
+			}
+		}
+	}
+
+	"item_gh_rhzx6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/融合之心"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1766"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_rhzx"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_kxzq_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_kxzq_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_rhzx_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_rhzx_3"
+					}
+				}
+			}
+			"modifier_item_gh_rhzx_3"
+			{
+				"TextureName"	"item_custom/凯旋挂坠"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"500"
+			}
+		}
+	}
+
+	"item_gh_zsg7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/主神格"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"%radius"
+		"ID"	"1767"
+		"ItemCost"	"800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_gh_zsg"
+			{
+				"Passive"	"1"
+				"Properties"	{}
+				"IsHidden"	"1"
+				"Attributes"	"MODIFIER_ATTRIBUTE_NONE"
+				"States"	{}
+				"Aura_Radius"	"%radius"
+				"Aura"	"modifier_item_gh_kxzq_2"
+				"Aura_Types"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Teams"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_ApplyToCaster"	"1"
+			}
+			"modifier_item_gh_kxzq_2"
+			{
+				"IsBuff"	"1"
+				"IsDebuff"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"	"%bonus"
+				}
+				"IsHidden"	"1"
+				"OnCreated"
+				{
+					"ApplyModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_zsg_3"
+					}
+				}
+				"OnDestroy"
+				{
+					"RemoveModifier"
+					{
+						"Target"	"TARGET"
+						"ModifierName"	"modifier_item_gh_zsg_3"
+					}
+				}
+			}
+			"modifier_item_gh_zsg_3"
+			{
+				"TextureName"	"item_custom/凯旋挂坠"
+				"IsBuff"	"1"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_RESPAWNTIME"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"50"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"500"
+			}
+		}
+	}
+
+	"item_population_upgrade"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/碧灵果"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1703"
+		"ItemQuality"	"artifact"
+		"ItemCost"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"population_max_upgrade"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"money"	"10000"
+			}
+		}
+	}
+
+	"item_builder_ability_point"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/修仙秘籍"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1905"
+		"ItemQuality"	"artifact"
+		"ItemCost"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"add_ability_point"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"money"	"5000"
+			}
+		}
+	}
+
+	"item_box_base_equipment_1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jichu1"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1704"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_jsst1;item_gjzz1;item_mljj1;item_fsjz1;item_fszg1;item_fytls1;item_fslj1"
+			}
+		}
+	}
+
+	"item_box_jj_equipment_1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jinjie1"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1875"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_gh_hypf_1;item_wq_am_1;item_wq_sscg_1;item_jj_gjzz1;item_jj_jsst1;item_jj_mljj1;item_jj_fslj1;item_jj_fsjz1;item_jj_fszg1"
+			}
+		}
+	}
+
+	"item_box_jj_equipment_2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jinjie2"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1876"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_gh_hypf_2;item_wq_am_2;item_wq_sscg_2;item_jj_gjzz2;item_jj_jsst2;item_jj_mljj2;item_jj_fslj2;item_jj_fsjz2;item_jj_fszg2"
+			}
+		}
+	}
+
+	"item_box_jj_equipment_3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jinjie3"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1877"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_gh_hypf_3;item_wq_am_3;item_wq_sscg_3;item_jj_gjzz3;item_jj_jsst3;item_jj_mljj3;item_jj_fslj3;item_jj_fsjz3;item_jj_fszg3;item_jj_twzj3;item_jj_ycj3"
+			}
+		}
+	}
+
+	"item_box_jj_equipment_4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jinjie4"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1878"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_gh_hypf_4;item_wq_am_4;item_wq_sscg_4;item_jj_gjzz4;item_jj_jsst4;item_jj_mljj4;item_jj_fslj4;item_jj_fsjz4;item_jj_fszg4;item_gh_bszx_4;item_gh_qxxj_4;item_gh_kxzq4;item_jj_lfj4;item_jj_yysd4"
+			}
+		}
+	}
+
+	"item_box_jj_equipment_5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jinjie5"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1879"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_gh_hypf_5;item_wq_am_5;item_wq_sscg_5;item_jj_gjzz5;item_jj_jsst5;item_jj_mljj5;item_jj_fslj5;item_jj_fsjz5;item_jj_fszg5;item_gh_bszx_5;item_gh_qxxj_5;item_gh_gmzx5;item_jj_syxd5"
+			}
+		}
+	}
+
+	"item_box_jj_equipment_6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jinjie6"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1880"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_gh_hypf_6;item_wq_am_6;item_wq_sscg_6;item_jj_gjzz6;item_jj_jsst6;item_jj_mljj6;item_jj_fslj6;item_jj_fsjz6;item_jj_fszg6;item_gh_bszx_6;item_gh_qxxj_6;item_gh_rhzx6"
+			}
+		}
+	}
+
+	"item_box_jj_equipment_7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jinjie7"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1881"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_gh_hypf_7;item_wq_am_7;item_wq_sscg_7;item_jj_gjzz7;item_jj_jsst7;item_jj_mljj7;item_jj_fslj7;item_jj_fsjz7;item_jj_fszg7;item_gh_bszx_7;item_gh_qxxj_7;item_gh_zsg7"
+			}
+		}
+	}
+
+	"item_box_base_equipment_2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jichu2"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1706"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_jsst2;item_gjzz2;item_mljj2;item_fsjz2;item_fszg2;item_fytls2;item_fslj2"
+			}
+		}
+	}
+
+	"item_box_base_equipment_3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jichu3"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1707"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_jsst3;item_gjzz3;item_mljj3;item_fsjz3;item_fszg3;item_fytls3;item_fslj3"
+			}
+		}
+	}
+
+	"item_box_base_equipment_4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jichu4"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1882"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_jsst4;item_gjzz4;item_mljj4;item_fsjz4;item_fszg4;item_fytls4;item_fslj4"
+			}
+		}
+	}
+
+	"item_box_base_equipment_5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jichu5"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1883"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_jsst5;item_gjzz5;item_mljj5;item_fsjz5;item_fszg5;item_fytls5;item_fslj5"
+			}
+		}
+	}
+
+	"item_box_base_equipment_6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jichu6"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1884"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_jsst6;item_gjzz6;item_mljj6;item_fsjz6;item_fszg6;item_fytls6;item_fslj6"
+			}
+		}
+	}
+
+	"item_box_base_equipment_7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/jichu7"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1885"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemRequiresCharges"	"1"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"box_random_item"
+				"item"	"item_jsst7;item_gjzz7;item_mljj7;item_fsjz7;item_fszg7;item_fytls77;item_fslj7"
+			}
+		}
+	}
+
+	"item_recipe_jsst2q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1705"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_jsst2"
+		"ItemRequirements"
+		{
+			"01"	"item_jsst1;item_jsst1;item_jsst1"
+		}
+	}
+
+	"item_recipe_gjzz2q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1711"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gjzz2"
+		"ItemRequirements"
+		{
+			"01"	"item_gjzz1;item_gjzz1;item_gjzz1"
+		}
+	}
+
+	"item_recipe_gjzz3q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1712"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gjzz3"
+		"ItemRequirements"
+		{
+			"01"	"item_gjzz2;item_gjzz2;item_gjzz2"
+		}
+	}
+
+	"item_recipe_gjzz4q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1713"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gjzz4"
+		"ItemRequirements"
+		{
+			"01"	"item_gjzz3;item_gjzz3;item_gjzz3"
+		}
+	}
+
+	"item_recipe_gjzz5q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1714"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gjzz5"
+		"ItemRequirements"
+		{
+			"01"	"item_gjzz4;item_gjzz4;item_gjzz4"
+		}
+	}
+
+	"item_recipe_gjzz6q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1715"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gjzz6"
+		"ItemRequirements"
+		{
+			"01"	"item_gjzz5;item_gjzz5;item_gjzz5"
+		}
+	}
+
+	"item_recipe_gjzz7q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1716"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gjzz7"
+		"ItemRequirements"
+		{
+			"01"	"item_gjzz6;item_gjzz6;item_gjzz6"
+		}
+	}
+
+	"item_recipe_mljj2q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1717"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_mljj2"
+		"ItemRequirements"
+		{
+			"01"	"item_mljj1;item_mljj1;item_mljj1"
+		}
+	}
+
+	"item_recipe_mljj3q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1718"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_mljj3"
+		"ItemRequirements"
+		{
+			"01"	"item_mljj2;item_mljj2;item_mljj2"
+		}
+	}
+
+	"item_recipe_mljj4q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1719"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_mljj4"
+		"ItemRequirements"
+		{
+			"01"	"item_mljj3;item_mljj3;item_mljj3"
+		}
+	}
+
+	"item_recipe_mljj5q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1720"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_mljj5"
+		"ItemRequirements"
+		{
+			"01"	"item_mljj4;item_mljj4;item_mljj4"
+		}
+	}
+
+	"item_recipe_mljj6q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1721"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_mljj6"
+		"ItemRequirements"
+		{
+			"01"	"item_mljj5;item_mljj5;item_mljj5"
+		}
+	}
+
+	"item_recipe_mljj7q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1722"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_mljj7"
+		"ItemRequirements"
+		{
+			"01"	"item_mljj6;item_mljj6;item_mljj6"
+		}
+	}
+
+	"item_recipe_fsjz2q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1723"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fsjz2"
+		"ItemRequirements"
+		{
+			"01"	"item_fsjz1;item_fsjz1;item_fsjz1"
+		}
+	}
+
+	"item_recipe_fsjz3q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1724"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fsjz3"
+		"ItemRequirements"
+		{
+			"01"	"item_fsjz2;item_fsjz2;item_fsjz2"
+		}
+	}
+
+	"item_recipe_fsjz4q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1725"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fsjz4"
+		"ItemRequirements"
+		{
+			"01"	"item_fsjz3;item_fsjz3;item_fsjz3"
+		}
+	}
+
+	"item_recipe_fsjz5q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1726"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fsjz5"
+		"ItemRequirements"
+		{
+			"01"	"item_fsjz4;item_fsjz4;item_fsjz4"
+		}
+	}
+
+	"item_recipe_fsjz6q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1727"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fsjz6"
+		"ItemRequirements"
+		{
+			"01"	"item_fsjz5;item_fsjz5;item_fsjz5"
+		}
+	}
+
+	"item_recipe_fsjz7q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1728"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fsjz7"
+		"ItemRequirements"
+		{
+			"01"	"item_fsjz6;item_fsjz6;item_fsjz6"
+		}
+	}
+
+	"item_recipe_fslj2q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1729"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fslj2"
+		"ItemRequirements"
+		{
+			"01"	"item_fslj1;item_fslj1;item_fslj1"
+		}
+	}
+
+	"item_recipe_fslj3q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1730"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fslj3"
+		"ItemRequirements"
+		{
+			"01"	"item_fslj2;item_fslj2;item_fslj2"
+		}
+	}
+
+	"item_recipe_fslj4q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1731"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fslj4"
+		"ItemRequirements"
+		{
+			"01"	"item_fslj3;item_fslj3;item_fslj3"
+		}
+	}
+
+	"item_recipe_fslj5q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1732"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fslj5"
+		"ItemRequirements"
+		{
+			"01"	"item_fslj4;item_fslj4;item_fslj4"
+		}
+	}
+
+	"item_recipe_fslj6q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1733"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fslj6"
+		"ItemRequirements"
+		{
+			"01"	"item_fslj5;item_fslj5;item_fslj5"
+		}
+	}
+
+	"item_recipe_fslj7q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1734"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fslj7"
+		"ItemRequirements"
+		{
+			"01"	"item_fslj6;item_fslj6;item_fslj6"
+		}
+	}
+
+	"item_recipe_fszg2q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1735"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fszg2"
+		"ItemRequirements"
+		{
+			"01"	"item_fszg1;item_fszg1;item_fszg1"
+		}
+	}
+
+	"item_recipe_fszg3q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1736"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fszg3"
+		"ItemRequirements"
+		{
+			"01"	"item_fszg2;item_fszg2;item_fszg2"
+		}
+	}
+
+	"item_recipe_fszg4q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1737"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fszg4"
+		"ItemRequirements"
+		{
+			"01"	"item_fszg3;item_fszg3;item_fszg3"
+		}
+	}
+
+	"item_recipe_fszg5q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1738"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fszg5"
+		"ItemRequirements"
+		{
+			"01"	"item_fszg4;item_fszg4;item_fszg4"
+		}
+	}
+
+	"item_recipe_fszg6q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1739"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fszg6"
+		"ItemRequirements"
+		{
+			"01"	"item_fszg5;item_fszg5;item_fszg5"
+		}
+	}
+
+	"item_recipe_fszg7q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1740"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fszg7"
+		"ItemRequirements"
+		{
+			"01"	"item_fszg6;item_fszg6;item_fszg6"
+		}
+	}
+
+	"item_recipe_fytls2q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1741"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fytls2"
+		"ItemRequirements"
+		{
+			"01"	"item_fytls1;item_fytls1;item_fytls1"
+		}
+	}
+
+	"item_recipe_am2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1790"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_am_2"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_am_1;item_wq_am_1;item_wq_am_1"
+		}
+	}
+
+	"item_recipe_hypf2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1796"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_hypf_2"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_hypf_1;item_gh_hypf_1;item_gh_hypf_1"
+		}
+	}
+
+	"item_recipe_sscg2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1860"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_sscg_2"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_sscg_1;item_wq_sscg_1;item_wq_sscg_1"
+		}
+	}
+
+	"item_recipe_sscg3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1861"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_sscg_3"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_sscg_2;item_wq_sscg_2;item_wq_sscg_2"
+		}
+	}
+
+	"item_recipe_sscg4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1862"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_sscg_4"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_sscg_3;item_wq_sscg_3;item_wq_sscg_3"
+		}
+	}
+
+	"item_recipe_sscg5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1863"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_sscg_5"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_sscg_4;item_wq_sscg_4;item_wq_sscg_4"
+		}
+	}
+
+	"item_recipe_sscg6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1864"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_sscg_6"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_sscg_5;item_wq_sscg_5;item_wq_sscg_5"
+		}
+	}
+
+	"item_recipe_sscg7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1865"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_sscg_7"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_sscg_6;item_wq_sscg_6;item_wq_sscg_6"
+		}
+	}
+
+	"item_recipe_qxxj5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1802"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_qxxj_5"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_qxxj_4;item_gh_qxxj_4;item_gh_qxxj_4"
+		}
+	}
+
+	"item_recipe_zg5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1808"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_gmzx"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_kxzq;item_gh_kxzq;item_gh_kxzq"
+		}
+	}
+
+	"item_recipe_zg6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1809"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_rhzx"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_gmzx;item_gh_gmzx;item_gh_gmzx"
+		}
+	}
+
+	"item_recipe_zg7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1810"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_zsg"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_rhzx;item_gh_rhzx;item_gh_rhzx"
+		}
+	}
+
+	"item_recipe_bszx5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1805"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_bszx_5"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_bszx_4;item_gh_bszx_4;item_gh_bszx_4"
+		}
+	}
+
+	"item_recipe_bszx6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1806"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_bszx_6"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_bszx_5;item_gh_bszx_5;item_gh_bszx_5"
+		}
+	}
+
+	"item_recipe_bszx7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1807"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_bszx_7"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_bszx_6;item_gh_bszx_6;item_gh_bszx_6"
+		}
+	}
+
+	"item_recipe_qxxj6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1803"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_qxxj_6"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_qxxj_5;item_gh_qxxj_5;item_gh_qxxj_5"
+		}
+	}
+
+	"item_recipe_qxxj7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1804"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_qxxj_7"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_qxxj_6;item_gh_qxxj_6;item_gh_qxxj_6"
+		}
+	}
+
+	"item_recipe_hypf3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1797"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_hypf_3"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_hypf_2;item_gh_hypf_2;item_gh_hypf_2"
+		}
+	}
+
+	"item_recipe_hypf4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1798"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_hypf_4"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_hypf_3;item_gh_hypf_3;item_gh_hypf_3"
+		}
+	}
+
+	"item_recipe_hypf5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1799"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_hypf_5"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_hypf_4;item_gh_hypf_4;item_gh_hypf_4"
+		}
+	}
+
+	"item_recipe_hypf6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1800"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_hypf_6"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_hypf_5;item_gh_hypf_5;item_gh_hypf_5"
+		}
+	}
+
+	"item_recipe_hypf7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1801"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_gh_hypf_7"
+		"ItemRequirements"
+		{
+			"01"	"item_gh_hypf_6;item_gh_hypf_6;item_gh_hypf_6"
+		}
+	}
+
+	"item_recipe_am3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1791"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_am_3"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_am_2;item_wq_am_2;item_wq_am_2"
+		}
+	}
+
+	"item_recipe_am4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1792"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_am_4"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_am_3;item_wq_am_3;item_wq_am_3"
+		}
+	}
+
+	"item_recipe_am5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1793"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_am_5"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_am_4;item_wq_am_4;item_wq_am_4"
+		}
+	}
+
+	"item_recipe_am6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1794"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_am_6"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_am_5;item_wq_am_5;item_wq_am_5"
+		}
+	}
+
+	"item_recipe_am7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1795"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_wq_am_7"
+		"ItemRequirements"
+		{
+			"01"	"item_wq_am_6;item_wq_am_6;item_wq_am_6"
+		}
+	}
+
+	"item_recipe_fytls3q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1742"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fytls3"
+		"ItemRequirements"
+		{
+			"01"	"item_fytls2;item_fytls2;item_fytls2"
+		}
+	}
+
+	"item_recipe_fytls4q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1743"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fytls4"
+		"ItemRequirements"
+		{
+			"01"	"item_fytls3;item_fytls3;item_fytls3"
+		}
+	}
+
+	"item_recipe_fytls5q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1744"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fytls5"
+		"ItemRequirements"
+		{
+			"01"	"item_fytls4;item_fytls4;item_fytls4"
+		}
+	}
+
+	"item_recipe_fytls6q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1745"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fytls6"
+		"ItemRequirements"
+		{
+			"01"	"item_fytls5;item_fytls5;item_fytls5"
+		}
+	}
+
+	"item_recipe_fytls7q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1746"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_fytls7"
+		"ItemRequirements"
+		{
+			"01"	"item_fytls6;item_fytls6;item_fytls6"
+		}
+	}
+
+	"item_recipe_jsst3q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1706"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_jsst3"
+		"ItemRequirements"
+		{
+			"01"	"item_jsst2;item_jsst2;item_jsst2"
+		}
+	}
+
+	"item_recipe_jsst4q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1707"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_jsst4"
+		"ItemRequirements"
+		{
+			"01"	"item_jsst3;item_jsst3;item_jsst3"
+		}
+	}
+
+	"item_recipe_jsst5q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1708"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_jsst5"
+		"ItemRequirements"
+		{
+			"01"	"item_jsst4;item_jsst4;item_jsst4"
+		}
+	}
+
+	"item_recipe_jsst6q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1709"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_jsst6"
+		"ItemRequirements"
+		{
+			"01"	"item_jsst5;item_jsst5;item_jsst5"
+		}
+	}
+
+	"item_recipe_jsst7q"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_mystery_arrow"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1710"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRecipe"	"1"
+		"ItemResult"	"item_jsst7"
+		"ItemRequirements"
+		{
+			"01"	"item_jsst6;item_jsst6;item_jsst6"
+		}
+	}
+
+	"item_fytls1"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞龙探云手12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1753"
+		"ItemCost"	"800"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fytls1"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"give_money"
+						"gold"	"%gold"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"gold"	"10"
+			}
+		}
+	}
+
+	"item_fytls2"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞龙探云手12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1754"
+		"ItemCost"	"800"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fytls2"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"give_money"
+						"gold"	"%gold"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"gold"	"20"
+			}
+		}
+	}
+
+	"item_fytls3"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞龙探云手12"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1755"
+		"ItemCost"	"800"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fytls3"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"give_money"
+						"gold"	"%gold"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"gold"	"40"
+			}
+		}
+	}
+
+	"item_fytls4"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞龙探云手34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1756"
+		"ItemCost"	"800"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fytls4"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"give_money"
+						"gold"	"%gold"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"gold"	"80"
+			}
+		}
+	}
+
+	"item_fytls5"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞龙探云手34"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1757"
+		"ItemCost"	"800"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fytls5"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"give_money"
+						"gold"	"%gold"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"gold"	"200"
+			}
+		}
+	}
+
+	"item_fytls6"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞龙探云手567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1758"
+		"ItemCost"	"800"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fytls6"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"give_money"
+						"gold"	"%gold"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"gold"	"500"
+			}
+		}
+	}
+
+	"item_fytls7"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/飞龙探云手567"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1759"
+		"ItemCost"	"800"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemKillable"	"1"
+		"ItemRequirements"	{}
+		"Modifiers"
+		{
+			"modifier_item_fytls7"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/abilities/basic.lua"
+						"Function"	"give_money"
+						"gold"	"%gold"
+					}
+				}
+				"Attributes"	"MODIFIER_ATTRIBUTE_MULTIPLE"
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"gold"	"1200"
+			}
+		}
+	}
+
+	"item_dy_qiangshendan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/强身丹"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1760"
+		"ItemQuality"	"consumable"
+		"ItemCost"	"600"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/mhj/g2/DanBao.lua"
+				"Function"	"danbao_dy_used"
+				"modifier"	"modifier_item_dy_qiangshendan"
+				"max"	"%max"
+			}
+		}
+		"Modifiers"
+		{
+			"modifier_item_dy_qiangshendan"
+			{
+				"IsBuff"	"1"
+				"IsHidden"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"30"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"max"	"30"
+			}
+		}
+	}
+
+	"item_dy_qinglindan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/轻灵丹"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1761"
+		"ItemQuality"	"consumable"
+		"ItemCost"	"600"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/mhj/g2/DanBao.lua"
+				"Function"	"danbao_dy_used"
+				"modifier"	"modifier_item_dy_qinglindan"
+				"max"	"%max"
+			}
+		}
+		"Modifiers"
+		{
+			"modifier_item_dy_qinglindan"
+			{
+				"IsBuff"	"1"
+				"IsHidden"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus"	"3"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"max"	"30"
+			}
+		}
+	}
+
+	"item_dy_xisuidan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/洗髓丹"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1762"
+		"ItemQuality"	"consumable"
+		"ItemCost"	"600"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/mhj/g2/DanBao.lua"
+				"Function"	"danbao_dy_used"
+				"modifier"	"modifier_item_dy_xisuidan"
+				"max"	"%max"
+			}
+		}
+		"Modifiers"
+		{
+			"modifier_item_dy_xisuidan"
+			{
+				"IsBuff"	"1"
+				"IsHidden"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"0.5"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"max"	"30"
+			}
+		}
+	}
+
+	"item_dy_qingxindan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/清心丹"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1763"
+		"ItemQuality"	"consumable"
+		"ItemCost"	"600"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/mhj/g2/DanBao.lua"
+				"Function"	"danbao_dy_used"
+				"modifier"	"modifier_item_dy_qingxindan"
+				"max"	"%max"
+			}
+		}
+		"Modifiers"
+		{
+			"modifier_item_dy_qingxindan"
+			{
+				"IsBuff"	"1"
+				"IsHidden"	"0"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"	"%bonus"
+				}
+			}
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus"	"0.2"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"max"	"30"
+			}
+		}
+	}
+
+	"item_dy_feidan"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/废丹"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"1764"
+		"ItemQuality"	"consumable"
+		"ItemCost"	"1000"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"ItemShareability"	"ITEM_NOT_SHAREABLE"
+		"ItemPurchasable"	"0"
+		"ItemPermanent"	"0"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+	}
+
+	"item_plus_start_reward_draw"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/puls开局"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1904"
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"draw_card_in_game_plus"
+				"card"	"tower_dldl_ayin;tower_xn_liujinbiao;tower_wwdx_piaomiao"
+			}
+		}
+	}
+
+	"item_festival_fireworks"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_custom/fireworks"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"ID"	"1501"
+		"ItemShareability"	"ITEM_FULLY_SHAREABLE_STACKING"
+		"ItemInitialCharges"	"1"
+		"ItemStackable"	"1"
+		"ItemRequirements"	{}
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"scripts/vscripts/abilities/common.lua"
+				"Function"	"newyear_fireworks"
+			}
+		}
+	}
+}

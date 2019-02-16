@@ -1,0 +1,70 @@
+﻿"dota_shops"
+{		
+		
+        "consumables"
+        {
+        	"1" "item_population_upgrade"
+        }
+
+        "attributes"
+        {
+        }
+        
+        "weapons_armor"
+        {
+        }
+                        
+        "misc"
+        {
+        }        
+        
+        "basics"
+        {
+        }
+
+        "support"
+        {
+        }
+      
+        "magics"                        
+        {
+        	
+
+        }
+                
+      
+        "weapons"
+        {
+        
+        }
+      
+        "defense"
+        {
+            
+        }        
+              
+        "artifacts" 
+        {        
+        
+        }
+
+        "sideshop1"  //路边商店1
+        {
+        	
+        }
+
+        "sideshop2"  //路边商店2
+        {
+        
+        }
+        "secretshop"  //神秘商店
+        {                                                        
+	
+        }
+		"pregame"
+		{
+			
+		}
+	
+              
+}

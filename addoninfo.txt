@@ -1,0 +1,21 @@
+"AddonInfo"
+{
+	"TeamCount"		"1"
+	"maps"			"xxj"
+	"IsPlayable"	"1"
+	
+	"xxj"
+	{
+		"MaxPlayers"	"4"
+	}
+	
+	"Default_Keys"
+    {
+        "01"
+        {
+            "Key"       "P"
+            "Command"   "Shop"
+            "Name"      "ToggleShop"
+        }
+    }
+}
